@@ -5,13 +5,15 @@ mix up your standup meetings with some randomization.
 
 Usage:
 ```
-standup.py [GroupA:]MemberA,MemberB,MemberC [[GroupB:]Member1,Member2,Member3]
+standup.py [--popcorn] [GroupA:]MemberA,MemberB,MemberC [[GroupB:]Member1,Member2,Member3]
 ```
 
 Usage Notes:
 * Groupings are space-delimited. At least one must be provided.
 * Groupings contain members which are comma-delimited.
 * Groupings can be titled by providing a colon-separated name before member list.
+* `--popcorn` reveals one name at a time, showing progress (e.g., `(1/6)`), and
+  waits for Enter before showing the next.
 
 Examples:
 ```
